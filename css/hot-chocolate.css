@@ -267,6 +267,26 @@ img {
   overflow: auto;
 }
 
+.quick-start h1,
+.quick-start h2,
+.quick-start h3,
+.quick-start h4,
+.quick-start h5,
+.quick-start h6 {
+  margin-bottom: 0.5em !important;
+}
+
+.quick-start>.cell {
+  border-top: 1px solid #f0f0f0;
+  border-left: 1px solid #f0f0f0;
+  border-right: 1px solid #f0f0f0;
+  padding: 1em;
+}
+
+.quick-start>.cell:last-of-type {
+  border-bottom: 1px solid #f0f0f0;
+}
+
 /* * * * * * * * */
 /*    Spacing    */
 /* * * * * * * * */
